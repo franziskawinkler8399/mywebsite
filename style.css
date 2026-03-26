@@ -1,12 +1,19 @@
-body {
-	margin: 0;
-	font-family: Georgia, serif;
+h1{
+    font-family: elite;
+    text-align: center;
+    height
+
+}
+
+body{
+    font-family: myfont;
+    
 }
 
 #navigation {
 	text-align: center;
 	padding: 20px;
-	background-color: #D9BDF8;
+	background-color: white;
 }
 
 nav ul {
@@ -27,4 +34,12 @@ nav ul li a {
 
 nav ul li a:hover {
 	text-decoration: underline;
+}
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/Orbitron-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: elite;
+    src: url(./fonts/SpecialElite-Regular.ttf);
 }
