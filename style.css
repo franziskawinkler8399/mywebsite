@@ -1,23 +1,28 @@
 h1{
     font-family: elite;
     text-align: center;
-    font-size: 100px;
+    font-size: 130px;
 	margin-bottom: 50px;
 	color: white;
-	margin-top: 200px;
+	margin-top: 100px;
 
 }
 
 body{
     font-family: myfont;
-	background-color: black;
+	background-image:url(./images/hintergrund.jpeg) ;
+	background-size: cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	height:100vh;
+	margin: 0;
     
 }
 
 #navigation {
 	text-align: center;
 	padding: 20px;
-	background-color: black;
+	background-color: transparent;
 }
 
 nav ul {
@@ -33,7 +38,7 @@ nav ul li {
 nav ul li a {
 	color: white;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 nav ul li a:hover {
