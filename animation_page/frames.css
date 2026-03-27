@@ -1,7 +1,36 @@
 
 body{
     overflow: hidden;
+    font-family: myfont;
 }
+
+#navigation {
+    position: fixed;
+	text-align: center;
+	padding: 20px;
+	background-color: white;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
 
 #frame_container{
 
@@ -16,6 +45,7 @@ body{
 
 #frame{
 
-    height:100vh;
+    height:80vh;
+    
 
 }
