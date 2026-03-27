@@ -1,14 +1,15 @@
 
 body{
+    background-color: black;
     overflow: hidden;
-    font-family: myfont;
+     
 }
 
 #navigation {
-    position: fixed;
+    
 	text-align: center;
 	padding: 20px;
-	background-color: white;
+	background-color: black;
 }
 
 nav ul {
@@ -22,9 +23,10 @@ nav ul li {
 }
 
 nav ul li a {
-	color: black;
+	color: white;
 	text-decoration: none;
 	font-size: 20px;
+    font-family: myfont;
 }
 
 nav ul li a:hover {
@@ -33,6 +35,7 @@ nav ul li a:hover {
 
 
 #frame_container{
+    margin-top: 5px;
 
 
     width:100vw;
@@ -45,7 +48,11 @@ nav ul li a:hover {
 
 #frame{
 
-    height:80vh;
-    
+    height:90vh;
 
+
+}
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/Orbitron-VariableFont_wght.ttf);
 }
